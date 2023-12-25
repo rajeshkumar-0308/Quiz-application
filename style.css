@@ -7,10 +7,17 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
-    background-image: url(./img/360_F_385231267_yvbg188Q9FKx8U2ovXU7AJHS4lDHAPay.jpg);
-    background-repeat: no-repeat;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./img/360_F_385231267_yvbg188Q9FKx8U2ovXU7AJHS4lDHAPay.jpg'); /* Replace 'background.jpg' with the path to your background image */
     background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 
@@ -20,7 +27,6 @@ body{
     background: #007bff;
 }
 
-.start_btn,
 .info_box,
 .quiz_box,
 .result_box{
@@ -41,11 +47,11 @@ body{
     transform: translate(-50%, -50%) scale(1);
 }
 
-.start_btn button{
-    font-size: 25px;
+.start_btn button {
+    font-size: 2em; /* Set a base font size using em units */
     font-weight: 500;
     color: #007bff;
-    padding: 15px 30px;
+    padding: 1em 2em; /* Use em units for padding */
     outline: none;
     border: none;
     border-radius: 5px;
@@ -390,10 +396,15 @@ footer button.show{
     .start_btn, .info_box, .quiz_box, .result_box {
         width: 90%;
         margin: 0 auto;
+        padding-left: 5rem;
+    }
+    .start_btn button {
+        font-size: 1.5em; /* Adjust font size for smaller screens */
+        padding: 0.8em 1.5em; /* Adjust padding for smaller screens */
     }
 
     .info_box, .quiz_box, .result_box {
-        padding: 15px;
+        padding: 10px;
     }
 
     .quiz_box {
@@ -405,7 +416,7 @@ footer button.show{
     }
 
     section .que_text {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     section .option_list .option {
@@ -427,8 +438,8 @@ footer button.show{
     }
 
     .result_box .buttons button {
-        height: 40px;
-        padding: 0 15px;
+        height: 35px;
+        padding: 0 12px;
         font-size: 16px;
     }
 }
