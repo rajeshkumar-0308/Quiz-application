@@ -5,7 +5,7 @@ let questions = [
     question: "Who is the first Prime Minister of India?",
     answer: "Jawaharlal Nehru",
     options: [
-      "P.J. Abdul Kalaam",
+      "A.P.J. Abdul Kalaam",
       "Jawaharlal Nehru",
       "Indira Gandhi",
       "Narendra Modi"
